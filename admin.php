@@ -35,8 +35,8 @@ if (!isset($_SESSION['loggedin'])) {
             align-items: center;
             min-height: 100vh;
             font-family: 'Poppins', sans-serif;
-            background: #28272c;
-            color: #ffaced;
+            background: #161616;
+            color: #0052e9;
             margin: 0;
             padding: 20px;
         }
@@ -47,7 +47,7 @@ if (!isset($_SESSION['loggedin'])) {
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(45deg, #28272c, #ffaced);
+            background: linear-gradient(45deg, #161616, #0052e9);
             background-size: 400% 400%;
             animation: gradientAnimation 15s ease infinite;
             z-index: -1;
@@ -79,7 +79,7 @@ if (!isset($_SESSION['loggedin'])) {
         }
 
         h2 {
-            color: #ffaced;
+            color: #0052e9;
             text-align: center;
             margin-bottom: clamp(20px, 5vw, 30px);
             font-weight: 600;
@@ -91,18 +91,18 @@ if (!isset($_SESSION['loggedin'])) {
             width: 100%;
             margin: 8px 0;
             padding: clamp(12px, 3vw, 15px);
-            border: 1px solid #ffaced;
+            border: 1px solid #0052e9;
             border-radius: 10px;
             font-size: clamp(14px, 2vw, 16px);
-            background: #28272c;
-            color: #ffaced;
+            background: #161616;
+            color: #0052e9;
             transition: all 0.3s ease;
         }
 
         input[type="text"]:focus,
         input[type="password"]:focus {
             outline: none;
-            border-color: #ffaced;
+            border-color: #0052e9;
             box-shadow: 0 0 10px rgba(255, 172, 237, 0.2);
         }
 
@@ -113,8 +113,8 @@ if (!isset($_SESSION['loggedin'])) {
             border: none;
             border-radius: 10px;
             font-size: clamp(14px, 2vw, 16px);
-            background: #ffaced;
-            color: #28272c;
+            background: #0052e9;
+            color: #161616;
             cursor: pointer;
             font-weight: 600;
             transition: transform 0.3s ease;
@@ -172,8 +172,8 @@ exit();
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background: #28272c;
-            color: #ffaced;
+            background: #161616;
+            color: #0052e9;
             margin: 0;
             padding: 20px;
         }
@@ -184,7 +184,7 @@ exit();
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(45deg, #28272c, #ffaced);
+            background: linear-gradient(45deg, #161616, #0052e9);
             background-size: 400% 400%;
             animation: gradientAnimation 15s ease infinite;
             z-index: -1;
@@ -205,8 +205,8 @@ exit();
             top: 20px;
             right: 20px;
             padding: 10px 20px;
-            background: #ffaced;
-            color: #28272c;
+            background: #0052e9;
+            color: #161616;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -228,13 +228,13 @@ exit();
         .reservations-table th,
         .reservations-table td {
             padding: 12px;
-            border: 1px solid #ffaced;
+            border: 1px solid #0052e9;
             text-align: left;
         }
 
         .reservations-table th {
-            background-color: #ffaced;
-            color: #28272c;
+            background-color: #0052e9;
+            color: #161616;
         }
 
         .status {
@@ -274,7 +274,7 @@ exit();
         }
 
         .title {
-            color: #ffaced;
+            color: #0052e9;
             text-align: center;
             margin-bottom: 30px;
         }
@@ -307,7 +307,7 @@ exit();
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%) scale(0.7);
-            background: #28272c;
+            background: #161616;
             padding: 2rem;
             border-radius: 20px;
             box-shadow: 0 8px 32px rgba(255, 172, 237, 0.3);
@@ -325,7 +325,7 @@ exit();
         }
 
         .modal-header {
-            color: #ffaced;
+            color: #0052e9;
             text-align: center;
             margin-bottom: 1.5rem;
             font-size: 1.5rem;
@@ -333,7 +333,7 @@ exit();
         }
 
         .modal-content {
-            color: #ffaced;
+            color: #0052e9;
             text-align: center;
             margin-bottom: 2rem;
             font-size: 1rem;
@@ -370,8 +370,8 @@ exit();
         }
 
         .cancel-btn {
-            background: #ffaced;
-            color: #28272c;
+            background: #0052e9;
+            color: #161616;
         }
 
         .cancel-btn:hover {
